@@ -43,7 +43,7 @@ class Knight
     path_finder
   end
 
-  def print_results
+  def print_path
     path = determine_path
     puts "You made it in #{(path.count - 1)} moves. Here's your path:"
     path.each {|node| p node}

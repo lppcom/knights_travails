@@ -14,7 +14,7 @@ end_node = Node.new([4,3])
 
 knight = Knight.new(starting_node, end_node)
 
->knight.print_results
+>knight.print_path
   You made it in 3 moves!  Here's your path:
   [3,3]
   [4,5]
