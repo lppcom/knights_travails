@@ -9,8 +9,8 @@ This script provides a function that shows the simplest possible way to get from
 ##Example:
 
 ```ruby
-starting_node = Node.new([3,3])
-end_node = Node.new([4,3])
+starting_node = Node.new(3,3)
+end_node = Node.new(4,3)
 
 knight = Knight.new(starting_node, end_node)
 
